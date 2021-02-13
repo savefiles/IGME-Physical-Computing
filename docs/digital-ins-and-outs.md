@@ -8,7 +8,7 @@ For this assignment, I decided to add a reed switch from my [Sparkfun Essential 
 
 
 ## How does it work?
-All four inputs and outputs (button, two LEDs, and the reed switch) are all hooked up to the digital pins of the Arduino, with the button set to INPUT, the LEDs set to OUTPUT, and the reed switch set to INPUT_PULLUP (utilizing the [Arduino's built in resistors](https://www.arduino.cc/en/Tutorial/Foundations/DigitalPins)). When the button is pressed, the yellow light turns on. When the reed switch is activated, the red light turns on. Code can be found [here](../code/digital-ins-and-outs.ino).
+All four inputs and outputs (button, two LEDs, and the reed switch) are all hooked up to the digital pins of the Arduino, with the button set to INPUT, the LEDs set to OUTPUT, and the reed switch set to INPUT_PULLUP (utilizing the [Arduino's built in resistors](https://www.arduino.cc/en/Tutorial/Foundations/DigitalPins)). When the button is pressed, the yellow light turns on. When the reed switch is activated, the red light turns on. I had to move the reed switch decently far away from the two resistors connected to the LEDs, because there was a strong enough electrical current to cause the reed switch to trigger without holding the magnet near it. Code can be found [here](../code/digital-ins-and-outs.ino).
 <br><br>
 
 !["With button pressed down"](images/ins-and-outs-2.jpg) When the button is pressed down, the yellow LED turns on.
