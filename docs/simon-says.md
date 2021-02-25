@@ -1,5 +1,6 @@
 # Simon Says
 ## Video Demonstration
+[!["Video of Project"](https://i.ytimg.com/vi_webp/n84i9kIqqu8/maxresdefault.webp)](https://youtu.be/n84i9kIqqu8)
 
 ## Original Plan
 The original plan for this project was to make a Simon Says game with four inputs and four LEDs. The LEDs would flash in a certain order, and the player would have to recreate it. One issue I ran into along the way was space on the breadboard, as the buttons need to go across the breadboard, and with four LEDs, that is hard to do. Since I only have two buttons, I needed two other sensors, so I went with the two that should play nice together, which is the reed switch and the hall sensor (both react to magnets).
@@ -17,8 +18,6 @@ When powered, all three lights will be lit, and will remain lit until the user a
 
 ### Final design:
 !["Final design"](images/simon-2.jpg)
-
-
 
 ### Fritzing diagram:
 !["Fritzing diagram"](images/simon-bb.png)
