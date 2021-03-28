@@ -21,7 +21,7 @@ My part was mostly dealing with the backend JS code, as I don't have the DF robo
 
 <img src="images/loading-bar-1.png" alt="first iteration of loading bar" width="400px"/>
 
-Brianna worked on the physical component, both with the breadboard and the Arduino code. She also did some of the creative aspects of the p5 code (such as background color changing depending on noise), and made the video. Check out her blog post here: <a href="https://github.com/B-Hen/IGME-470-Blog/wiki/From-Loading-Bar-of-Despair-to-Running-Man">From Loading Bar of Despair to Running Man</a>
+Breanna worked on the physical component, both with the breadboard and the Arduino code. She also did some of the creative aspects of the p5 code (such as background color changing depending on noise), and made the video. Check out her blog post here: <a href="https://github.com/B-Hen/IGME-470-Blog/wiki/From-Loading-Bar-of-Despair-to-Running-Man">From Loading Bar of Despair to Running Man</a>
 
 ## Why we switched
 We had this project mostly done a week before the deadline, but during class on Monday, we realized that while our project interacted with the sensors, we couldn't figure out what a physical version of this would look like. If it was just a random loading bar, that doesn't invoke the same emotions. The user needs to be waiting for something. Because of this, we decided to pivot to a different idea, one which wouldn't require too much more coding: the running man.
@@ -58,7 +58,7 @@ rect(middleX + 55, middleY - 30, 25, -60, 20);
 pop();
 ```
 
-If the joints rotate too much, they'll detach from the body, which is not ideal, but for our demo purposes, it works (in a physical setting, since the servo would represent the joint, this wouldn't be an issue). Instead of having the background just change color, Brianna coded it such that images of people cheering or images of people stomping would appear (to simulate people around you doing the same). Also, when the runner eventually reaches the end, an image of people clapping would appear.
+If the joints rotate too much, they'll detach from the body, which is not ideal, but for our demo purposes, it works (in a physical setting, since the servo would represent the joint, this wouldn't be an issue). Instead of having the background just change color, Breanna coded it such that images of people cheering or images of people stomping would appear (to simulate people around you doing the same). Also, when the runner eventually reaches the end, an image of people clapping would appear.
 
 ## Conclusion
 Overall, the project was a success. It can create certain emotions utilizing components and a screen. Granted, if we had the budget and time, it would be a much more compelling experience, but it was still good either way. Coding the assignment in p5 was a nice challenge, as neither of us have used p5 before (but we are both familiar with HTML canvas).
@@ -66,4 +66,4 @@ Overall, the project was a success. It can create certain emotions utilizing com
 ### Links
 - [Arduino Code](https://create.arduino.cc/editor/b_hen/c9b68948-cf11-49b0-9593-7fd6104fdbc2/preview)
 - [Demo Website](../code/loading-bar/)
-- [Brianna's Blog](https://github.com/B-Hen/IGME-470-Blog/wiki/From-Loading-Bar-of-Despair-to-Running-Man)
+- [Breanna's Blog](https://github.com/B-Hen/IGME-470-Blog/wiki/From-Loading-Bar-of-Despair-to-Running-Man)
