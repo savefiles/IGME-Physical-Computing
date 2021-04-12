@@ -1,5 +1,5 @@
 # Remotely Controlling LEDs
-Breanna's blog post: 
+Breanna's blog post: https://github.com/B-Hen/IGME-470-Blog/wiki/Network-Communication
 
 Breanna and I were both on the RIT-Legacy network. We had originally tried the code from the lab and quickly realized that the lab code had no way of connected to the other person's Arduino. However, in class today (Monday), we used the new code, and it ended up working!
 
